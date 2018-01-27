@@ -3,7 +3,6 @@ import sqlite3
 print('''1.agregar \n2.buscar ''')
 opc = input()
 db = sqlite3.connect('prueba')
-db.create_function('libro', 1,)
 
 if opc == '1':
 
